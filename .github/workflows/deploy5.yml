@@ -18,6 +18,6 @@ jobs:
               with:
                   subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
                   resourceGroupName: ${{ secrets.AZURE_RG }}
-                  template: ./OneDrive/Documents/Labs/main.bicep
+                  template: C:\Users\artur\OneDrive\Documents\Labs\main.bicep
                   parameters: storagePrefix=stg
                   failOnStdErr: false
